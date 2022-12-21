@@ -350,6 +350,7 @@
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4F-8y-nYH">
                                                             <rect key="frame" x="100" y="20.333333333333336" width="213" height="19.333333333333336"/>
+                                                            <color key="tintColor" red="0.96841138599999999" green="0.77008184850000005" blue="0.25373728350000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -360,7 +361,7 @@
                                                                 <constraint firstAttribute="height" constant="34.329999999999998" id="21n-ge-57P"/>
                                                                 <constraint firstAttribute="width" constant="10" id="fxP-Iq-h8D"/>
                                                             </constraints>
-                                                            <color key="tintColor" systemColor="tintColor"/>
+                                                            <color key="tintColor" systemColor="systemYellowColor"/>
                                                             <state key="normal" title="Button"/>
                                                             <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing">
                                                                 <imageReference key="image" image="chevron.right" catalog="system"/>
@@ -492,6 +493,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
